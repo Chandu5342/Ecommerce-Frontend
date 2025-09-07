@@ -1,5 +1,5 @@
 import axios from 'axios';
-const API = 'http://localhost:5000/api/products';
+const API = 'https://ecommerce-backend-6lvv.onrender.com/api/products';
 
 export const getProducts = (query = '') => {
   return axios.get(`${API}?${query}`);

@@ -97,6 +97,7 @@ function Products() {
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title fw-bold">{p.name}</h5>
                   <p className="card-text text-muted">{p.description}</p>
+                   <p className="card-text text-muted">{p.category}</p>
                   <p className="card-text fw-bold text-success mb-3">₹{p.price}</p>
                   <button
                     className="btn btn-outline-dark w-100 mt-auto rounded-3 fw-semibold"
