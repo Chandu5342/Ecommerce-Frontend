@@ -1,10 +1,10 @@
-# 🛍️ E-Commerce Frontend (MERN Assignment)
+#  E-Commerce Frontend (MERN Assignment)
 
 This is the **frontend** for the e-commerce web application built with **React (Vite) and Bootstrap**.
 
 ---
 
-## 🚀 Features
+##  Features
 - Signup & Login pages (JWT-based auth)
 - Products listing page with filters (category, price)
 - Cart page (add, remove, update quantity, persists after logout/login)
@@ -13,7 +13,7 @@ This is the **frontend** for the e-commerce web application built with **React (
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 frontend/
 │── src/
 │   ├── api/          # API helper files
@@ -27,7 +27,7 @@ frontend/
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **React (Vite)**
 - **React Router**
 - **Bootstrap 5**
@@ -35,7 +35,7 @@ frontend/
 
 ---
 Live Link: https://ecommerce-frontend-black-theta.vercel.app/
-## ⚡ Run Locally
+##  Run Locally
 ```bash
 git clone <frontend-repo-url>
 cd frontend
