@@ -35,6 +35,14 @@ frontend/
 
 ---
 Live Link: https://ecommerce-frontend-black-theta.vercel.app/
+
+## 🧑‍💼 Admin Test Account
+
+To test admin functionality (CRUD operations on products), use the following credentials:
+
+- **Email:** admin@gmail.com  
+- **Password:** 123456  
+
 ##  Run Locally
 ```bash
 git clone https://github.com/Chandu5342/Ecommerce-Frontend.git
