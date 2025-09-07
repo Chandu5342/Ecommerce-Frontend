@@ -1,12 +1,43 @@
-# React + Vite
+# 🛍️ E-Commerce Frontend (MERN Assignment)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the **frontend** for the e-commerce web application built with **React (Vite) and Bootstrap**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Signup & Login pages (JWT-based auth)
+- Products listing page with filters (category, price)
+- Cart page (add, remove, update quantity, persists after logout/login)
+- Admin dashboard for managing products (CRUD)
+- Role-based navigation (admin/user)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Folder Structure
+frontend/
+│── src/
+│   ├── api/          # API helper files
+│   │   ├── authApi.js
+│   │   ├── productApi.js
+│   │   └── cartApi.js
+│   ├── components/   # Shared UI (Navbar, ProductCard)
+│   ├── pages/        # Pages (Login, Signup, Products, Cart, AdminProducts)
+│   ├── App.jsx       # App routes
+│   └── main.jsx      # Entry point
+
+---
+
+## 🛠️ Tech Stack
+- **React (Vite)**
+- **React Router**
+- **Bootstrap 5**
+- **Axios** (API calls)
+
+---
+Live Link: https://ecommerce-frontend-black-theta.vercel.app/
+## ⚡ Run Locally
+```bash
+git clone <frontend-repo-url>
+cd frontend
+npm install
+npm run dev
