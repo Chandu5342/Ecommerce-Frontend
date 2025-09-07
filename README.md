@@ -37,7 +37,7 @@ frontend/
 Live Link: https://ecommerce-frontend-black-theta.vercel.app/
 ##  Run Locally
 ```bash
-git clone <frontend-repo-url>
+git clone https://github.com/Chandu5342/Ecommerce-Frontend.git
 cd frontend
 npm install
 npm run dev
